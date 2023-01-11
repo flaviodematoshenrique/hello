@@ -3,9 +3,9 @@
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
 
-define('LARAVEL_START', microtime(true));
+/*define('LARAVEL_START', microtime(true));
 
-/*
+
 |--------------------------------------------------------------------------
 | Check If The Application Is Under Maintenance
 |--------------------------------------------------------------------------
@@ -44,9 +44,9 @@ require_once __DIR__.'/public/index.php';
 |
 */
 
-$app = require_once __DIR__.'/../bootstrap/app.php';
+/*$app = require_once __DIR__.'/../bootstrap/app.php';
 
-/*$kernel = $app->make(Kernel::class);
+$kernel = $app->make(Kernel::class);
 
 $response = $kernel->handle(
     $request = Request::capture()
